@@ -1,0 +1,33 @@
+{
+  "name": "clone-performance",
+  "version": "1.0.0",
+  "description": "Testing the performance of different cloning approaches",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/distributedlife/clone-performance.git"
+  },
+  "keywords": [
+    "performance",
+    "isEqual",
+    "equal",
+    "object"
+  ],
+  "author": "Ryan Boucher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/distributedlife/clone-performance/issues"
+  },
+  "homepage": "https://github.com/distributedlife/clone-performance#readme",
+  "devDependencies": {
+    "benchmark": "^2.1.0",
+    "immutable": "^3.8.1",
+    "lodash": "^4.13.1"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.0"
+  }
+}
